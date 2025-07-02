@@ -16,7 +16,7 @@ try {
     $mail->Port = 587;
 
     $mail->setFrom(getenv('EMAIL_USUARIO'), 'Op.Dados');
-    $mail->addAddress('op.dados@g.globo', 'Eduardo');
+    $mail->addAddress('dudu.curso8@gmail.com', 'Eduardo');
 
     $mail->Subject = 'Teste';
     $mail->Body    = 'Este é um teste de email';
